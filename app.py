@@ -15,7 +15,7 @@ def to_csv(dataframe):
 
 
 st.title("K-Means Clustering Application")
-
+st.subheader("Ardelia Parahita Arisanti 24050121140166")
 # Bagian 1: Input Data
 st.sidebar.header("Input Data")
 uploaded_file = st.sidebar.file_uploader("Upload CSV file", type=["csv"])
